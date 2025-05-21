@@ -1,0 +1,144 @@
+.body {
+  background-color: beige;
+}
+.encabezado {/* contenedor  del encabezado */
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+}
+.encabezado img {/*imagen de la izquierda  en el  encabezado  */
+    width:80px;
+    height: 80px;
+}
+.encabezado h1 { /*titulo  del encabezado */
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+}
+.encabezado a { /* enlaces  del encabezado */
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.encabezado a:hover { /* enlaces  del encabezado  cuando pasas el cursor   */
+    color: #00d4ff;
+    text-decoration: underline;
+}
+.cuerpo1 { /* contenedor  del cuerpo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #15bfbf;
+background: radial-gradient(circle, rgba(21, 191, 191, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+.cuerpo1 h1{ /*titulo  del cuerpo */
+    color: white;
+    font-size: 50px;
+}
+.cuerpo1 p{ /*parrafo  del cuerpo */
+    color: white;
+    font-size: 20px;
+}
+.cuerpo1  button{ /*boton  del cuerpo */
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cuerpo1  button:hover{ /*boton  del cuerpo  cuando pasas el cursor */
+    background-color: #00d4ff;
+}
+.cuerpo2{ /* contenedor  del cuerpo2/nuestros servicios */
+    height: 100px;
+    background: #2de0e0;
+background: radial-gradient(circle, rgba(45, 224, 224, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+.cuerpo2 h1{ /*titulo  del cuerpo */
+    color: white;
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+}
+.cuerpo2 h1:hover{ /*titulo  del cuerpo  cuando pasas el cursor */
+    color: #00d4ff;
+}
+.Tarjetas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tarjeta{
+    display: flex;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    width: 400px;
+    height: auto;
+    margin: 20px;
+    border-radius: 10px;
+    flex-direction:column;
+    align-items: center;
+
+}
+.tarjeta h1{
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    align-items: center;
+}
+.tarjeta h3{
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 10px;
+    align-items: center;
+}
+.tarjeta img{
+    display: flex;
+    width: 75px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.tarjeta button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.tarjeta button:hover{
+    background-color: #00d4ff;
+}
+.tarjeta a image :hover{
+    color: #00d4ff;
+}
+.footer{
+    display: flex;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    width: 100%;
+    height: 100px;
+    align-items: center;
+}
+.footer h1{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    align-items: center;
+}
